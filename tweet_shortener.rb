@@ -39,7 +39,7 @@ def selective_tweet_shortener(tweet)
   new_tweet = word_substituter(tweet)
   temp = ""
   if new_tweet.length > 140
-    temp = new_tweet[0..137]
+    temp = new_tweet[0..138]
     temp += "..."
     return temp
   else
