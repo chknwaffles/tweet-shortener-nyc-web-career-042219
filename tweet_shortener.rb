@@ -43,6 +43,6 @@ def selective_tweet_shortener(tweet)
     temp += "..."
     return temp
   else
-    return new_tweet
+    return tweet
   end
 end
